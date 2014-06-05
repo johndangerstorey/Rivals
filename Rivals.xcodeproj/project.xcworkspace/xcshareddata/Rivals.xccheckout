@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3032A02A-724F-4D81-AD08-F4A65B6B9111</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rivals</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53AC0CF7-7365-4CAD-8907-9A31FE0A2A52</key>
+		<string>https://github.com/johndangerstorey/Rivals.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rivals.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53AC0CF7-7365-4CAD-8907-9A31FE0A2A52</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johndangerstorey/Rivals.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53AC0CF7-7365-4CAD-8907-9A31FE0A2A52</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53AC0CF7-7365-4CAD-8907-9A31FE0A2A52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rivals</string>
+		</dict>
+	</array>
+</dict>
+</plist>

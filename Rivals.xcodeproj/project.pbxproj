@@ -19,6 +19,11 @@
 		713E0855193E77E9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E083D193E77E9006CA563 /* UIKit.framework */; };
 		713E085D193E77E9006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E085B193E77E9006CA563 /* InfoPlist.strings */; };
 		713E085F193E77E9006CA563 /* RivalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E085E193E77E9006CA563 /* RivalsTests.m */; };
+		F55D83E6193FEFB000D813FE /* RITimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D83E4193FEFB000D813FE /* RITimerViewController.m */; };
+		F55D83E7193FEFB000D813FE /* RITimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55D83E5193FEFB000D813FE /* RITimerViewController.xib */; };
+		F55D83EB193FEFBF00D813FE /* RIHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D83E9193FEFBF00D813FE /* RIHistoryViewController.m */; };
+		F55D83EC193FEFBF00D813FE /* RIHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55D83EA193FEFBF00D813FE /* RIHistoryViewController.xib */; };
+		F55D83EF193FF3D200D813FE /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D83EE193FF3D200D813FE /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		713E085A193E77E9006CA563 /* RivalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RivalsTests-Info.plist"; sourceTree = "<group>"; };
 		713E085C193E77E9006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E085E193E77E9006CA563 /* RivalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RivalsTests.m; sourceTree = "<group>"; };
+		F55D83E3193FEFB000D813FE /* RITimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITimerViewController.h; sourceTree = "<group>"; };
+		F55D83E4193FEFB000D813FE /* RITimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITimerViewController.m; sourceTree = "<group>"; };
+		F55D83E5193FEFB000D813FE /* RITimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RITimerViewController.xib; sourceTree = "<group>"; };
+		F55D83E8193FEFBF00D813FE /* RIHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIHistoryViewController.h; sourceTree = "<group>"; };
+		F55D83E9193FEFBF00D813FE /* RIHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIHistoryViewController.m; sourceTree = "<group>"; };
+		F55D83EA193FEFBF00D813FE /* RIHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RIHistoryViewController.xib; sourceTree = "<group>"; };
+		F55D83EE193FF3D200D813FE /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		713E082D193E77E9006CA563 = {
 			isa = PBXGroup;
 			children = (
+				F55D83ED193FEFC500D813FE /* History */,
+				F55D83DF193FEF8900D813FE /* Timer */,
 				713E083F193E77E9006CA563 /* Rivals */,
 				713E0858193E77E9006CA563 /* RivalsTests */,
 				713E0838193E77E9006CA563 /* Frameworks */,
@@ -110,6 +124,7 @@
 				713E0848193E77E9006CA563 /* RIAppDelegate.h */,
 				713E0849193E77E9006CA563 /* RIAppDelegate.m */,
 				713E084B193E77E9006CA563 /* Images.xcassets */,
+				F55D83EE193FF3D200D813FE /* clock.png */,
 				713E0840193E77E9006CA563 /* Supporting Files */,
 			);
 			path = Rivals;
@@ -142,6 +157,26 @@
 				713E085B193E77E9006CA563 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55D83DF193FEF8900D813FE /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				F55D83E3193FEFB000D813FE /* RITimerViewController.h */,
+				F55D83E4193FEFB000D813FE /* RITimerViewController.m */,
+				F55D83E5193FEFB000D813FE /* RITimerViewController.xib */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		F55D83ED193FEFC500D813FE /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F55D83E8193FEFBF00D813FE /* RIHistoryViewController.h */,
+				F55D83E9193FEFBF00D813FE /* RIHistoryViewController.m */,
+				F55D83EA193FEFBF00D813FE /* RIHistoryViewController.xib */,
+			);
+			name = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55D83EC193FEFBF00D813FE /* RIHistoryViewController.xib in Resources */,
+				F55D83EF193FF3D200D813FE /* clock.png in Resources */,
 				713E0844193E77E9006CA563 /* InfoPlist.strings in Resources */,
 				713E084C193E77E9006CA563 /* Images.xcassets in Resources */,
+				F55D83E7193FEFB000D813FE /* RITimerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55D83EB193FEFBF00D813FE /* RIHistoryViewController.m in Sources */,
 				713E0846193E77E9006CA563 /* main.m in Sources */,
+				F55D83E6193FEFB000D813FE /* RITimerViewController.m in Sources */,
 				713E084A193E77E9006CA563 /* RIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +478,7 @@
 				713E0864193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E0865193E77E9006CA563 /* Build configuration list for PBXNativeTarget "RivalsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +487,7 @@
 				713E0867193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
